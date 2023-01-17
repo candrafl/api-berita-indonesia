@@ -29,8 +29,8 @@ endpoints.forEach((endpoint) => {
 
 app.get('/', (req, res) => {
   return res.send({
-    maintainer: 'R.M Reza',
-    github: 'https://github.com/renomureza/api-berita-indonesia',
+    maintainer: 'SMKXT7',
+    website: 'https://smkxt7.my.id',
     endpoints: endpointsOverview,
   });
 });
